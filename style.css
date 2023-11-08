@@ -11,6 +11,7 @@ body {
     background-color: #381a03;
     overflow-x: hidden;
 }
+/*Navbar Section*/
 .header{
     height: 100vh;
     width: 100%;
@@ -24,7 +25,7 @@ body {
 .nav-item .nav-link{
     color: #fff;
     font-size: 1.8vh;
-    font-weight: 500;
+    font-weight: 800;
 }
 .logo{
     color: #fff;
@@ -44,4 +45,17 @@ body {
     font-size: 1.8vh;
     border-radius: 50px;
     font-weight: 500;
+}
+/* Home section*/
+.content-home{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-heading{
+    font-size: 4.5vh;
+    font-weight: 700;
+    line-height: 54px;
 }
