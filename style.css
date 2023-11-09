@@ -51,7 +51,7 @@ body {
     width: 100%;
 }
 .nav-link:hover{
-    color: antiquewhite;
+    color: burlywood;
 }
 .btn-navbar{
     display: inline-block;
@@ -96,9 +96,20 @@ body {
     display: inline-block;
     font-size: 2vh;
     font-weight: 500;
-    color: beige;
+    color: #381a03;
     text-decoration: none;
     border-radius: 50px;
     border: 1px solid #fff;
     padding: 10px 37px;
+    background-color: burlywood;
+    transition: 0.4s ease;
+}
+.home-links:hover{
+    color: burlywood;
+    background-color: #1c0d01;
+    border: 1px solid burlywood;
+}
+.btn-2{
+    color: beige;
+    background-color: transparent;
 }
