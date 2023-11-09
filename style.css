@@ -113,3 +113,57 @@ body {
     color: beige;
     background-color: transparent;
 }
+/*About Us section*/
+.about-us-container{
+    width: 100%;
+    height: 90vh;
+}
+.about-us{
+    width: 100%;
+    height: 380px;
+    background-color: #1c0d01;
+    margin-top: 140px;
+}
+.content-about{
+    padding: 10px 38px;
+}
+.heading-about{
+    font-size: 4vh;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: burlywood;
+    margin: 10px 0px;
+    margin-bottom: 34px;
+    position: relative;
+}
+.heading-about::after{
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -8px;
+    background-color: burlywood;
+    width: 46px;
+    height: 2px;
+}
+.para-about{
+    font-size: 2vh;
+    font-weight: 500;
+    line-height: 21px;
+    margin: 25px 0px;
+}
+.link-about{
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    color: burlywood;
+    border: 1px solid burlywood;
+    padding: 8px 22px;
+    font-size: 2vh;
+    font-weight: 500;
+    border-radius: 50px;
+    transition: 0.4s ease;
+}
+.link-about:hover{
+    background-color: burlywood;
+    color: #1c0d01;
+}
