@@ -221,3 +221,19 @@ body {
     color: beige;
     line-height: 22px;
 }
+.btn-product-ctg{
+    color: burlywood;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 8px 22px;
+    border-radius: 50px;
+    transition: 0.4s ease;
+}
+.btn-product-ctg:hover{
+    color: #1c0d01;
+    background-color: burlywood;
+}
+.btn-prev{
+    color: #fff;
+}
