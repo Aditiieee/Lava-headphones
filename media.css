@@ -13,6 +13,11 @@
     .navbar{
         background-color: burlywood;
     }
+    .btn-navbar{
+        color: #1c0d01;
+        font-weight: 600;
+        font-size: 16px;
+    }
     .nav-item .nav-link{
         color: #1c0d01;
         font-size: 17px;
@@ -84,9 +89,6 @@
         height: 100%;
         text-align: center;
         padding: 26px 10px;
-    }
-    .footer{
-        display: none;
     }
 }
 @media (max-width:768px) {
@@ -168,11 +170,11 @@
         line-height: 52px;
     }
     .about-us-container{
-        padding-top: 6rem;
+        padding-top: 0px;
     }
     .heading-product{
         font-size: 25px;
-        margin-top: 0px;
+        margin-top: 200px;
     }
     .container-content{
         width: 70%;
@@ -183,9 +185,9 @@
         font-size: 30px;
         line-height: 50px;
     }
-    .img-client{
+    .image-clients{
         width: 90px;
-        height: -0px;
+        height: 90px;
     }
     .client-name{
         font-size: 18px;
@@ -193,5 +195,20 @@
     .para-client{
         font-size: 13px;
         line-height: 21px;
+    }
+    .button-left, .button-right{
+        display: none;
+    }
+    .heading-contact{
+        margin-top: 250px;
+    }
+    .footer{
+        margin-top: 450px;
+    }
+    .navbar-toggler{
+    color: burlywood;
+    }
+    .heading-about{
+        text-align: center;
     }
 }
